@@ -1,0 +1,124 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+/* Шапка */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+/* Секції */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+section#about {
+    background-color: #e2e2e2;
+}
+
+section#history {
+    background-color: #dcdcdc;
+}
+
+section#culture {
+    background-color: #f1f1f1;
+}
+
+section#contact {
+    background-color: #e9e9e9;
+}
+
+/* Футер */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.flag {
+    width: 150px; /* Розмір прапора, можна змінювати */
+    display: block;
+    margin: 0 auto;
+}
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Відступ між гербом і прапором */
+}
+
+.coat-of-arms {
+    width: 100px; /* Налаштуй розмір герба */
+    height: auto;
+}
+
+.flag {
+    width: 120px; /* Налаштуй розмір прапора */
+    height: auto;
+}
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Відступ між гербом і прапором */
+}
+
+.symbol {
+    text-align: center;
+}
+
+.symbol p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px; /* Відступ між текстом і зображенням */
+}
+
+.coat-of-arms, .flag {
+    width: 120px; /* Налаштуй розмір */
+    height: auto;
+}
+.header-title {
+    font-size: 48px;  /* Збільшений розмір тексту */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(255, 119, 0); /* або інший колір */
+}
+
